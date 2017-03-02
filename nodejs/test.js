@@ -6,14 +6,14 @@ http.createServer( function (req, res) {
    //console.log(req);
    console.log(JSON.stringify(p));
    console.log(p.href);
-   console.log(p.protocol); //È¡µ½µÄÖµÊÇ£ºhttp: x
-   console.log(p.hostname);//È¡µ½µÄÖµÊÇ£ºlocahost x
+   console.log(p.protocol); //È¡ï¿½ï¿½ï¿½ï¿½Öµï¿½Ç£ï¿½http: x x
+   console.log(p.hostname);//È¡ï¿½ï¿½ï¿½ï¿½Öµï¿½Ç£ï¿½locahost x
 
-   //var arg = URL.parse(req.url).query;  //·½·¨Ò»arg => aa=001&bb=002
-   var arg = URL.parse(req.url, true).query;  //·½·¨¶þarg => { aa: '001', bb: '002' }
+   //var arg = URL.parse(req.url).query;  //ï¿½ï¿½ï¿½ï¿½Ò»arg => aa=001&bb=002
+   var arg = URL.parse(req.url, true).query;  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½arg => { aa: '001', bb: '002' }
    console.log(arg);
-   console.log(arg.aa);//·µ»Ø001
-   console.log(arg.bb);//·µ»Ø002
+   console.log(arg.aa);//ï¿½ï¿½ï¿½ï¿½001
+   console.log(arg.bb);//ï¿½ï¿½ï¿½ï¿½002
 
 	// demo-json.js
 	var obj = { 
@@ -39,22 +39,22 @@ http.createServer( function (req, res) {
   res.write("<p>Hello World</p>");
   res.end("<p>beyondweb.cn</p>");
   */
-  //¶ÁÎÄ¼þ ×èÈû´úÂëÊµÀý
+  //ï¿½ï¿½ï¿½Ä¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½
  /* var fs = require("fs");
   var data = fs.readFileSync('readme.txt');
   console.log(data.toString());
-  console.log("³ÌÐòÖ´ÐÐ½áÊø!");
+  console.log("ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ð½ï¿½ï¿½ï¿½!");
 */
 
-//·Ç×èÈû´úÂëÊµÀý 
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ 
 var fs = require("fs");
-//Node.js »Øµ÷º¯Êý
+//Node.js ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½
 fs.readFile('G:\\opensource\\nodejs\\src\\readme.txt', function (err, data) {
     if (err) return console.error(err);
     console.log(data.toString());
 });
 
-console.log("³ÌÐòÖ´ÐÐ½áÊø!");
+console.log("ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ð½ï¿½ï¿½ï¿½!");
 
 }).listen(8000); 
 console.log("HTTP server is listening at port 8000.");

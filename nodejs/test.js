@@ -6,7 +6,7 @@ http.createServer( function (req, res) {
    //console.log(req);
    console.log(JSON.stringify(p));
    console.log(p.href);
-   console.log(p.protocol); //ȡ����ֵ�ǣ�http: x x
+   console.log(p.protocol); //ȡ����ֵ�ǣ�http: x xx
    console.log(p.hostname);//ȡ����ֵ�ǣ�locahost x
 
    //var arg = URL.parse(req.url).query;  //����һarg => aa=001&bb=002

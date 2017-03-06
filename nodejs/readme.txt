@@ -15,3 +15,4 @@ express安装
 npm install -g express-generator #需先安装express-generator
 npm install -g express
 express -V #验证是否安装成功
+aaa

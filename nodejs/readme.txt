@@ -1,7 +1,9 @@
 demo1.8
 
-eclipse中使用git - - 博客频道 - CSDN.NET
+eclipse中使用git
 http://blog.csdn.net/hhhccckkk/article/details/10458159
+GIt 报错cannot open git-receive-pack_yingudan
+https://blog.csdn.net/yingudan/article/details/82081302
 
 测试目录 
 G:\opensource\nodejs\src

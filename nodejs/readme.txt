@@ -4,6 +4,8 @@ eclipse中使用git
 http://blog.csdn.net/hhhccckkk/article/details/10458159
 GIt 报错cannot open git-receive-pack_yingudan
 https://blog.csdn.net/yingudan/article/details/82081302
+eclipse拉取git项目 Read timed out after 30,000 ms
+https://blog.csdn.net/weixin_41996632/article/details/101015909
 
 测试目录 
 G:\opensource\nodejs\src
